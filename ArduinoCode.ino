@@ -140,7 +140,7 @@ else {
 
   else { // 
 
-    Serial.println("Pin 6 and 7 are both LOW. (Left Side and CLOSE)");
+    Serial.println("Pin 6 and 7 are both LOW. (Left Side and FAR)");
         if (!audioInitialized) { // If audio hasn't be initialized yet, then do it (To prevent double initializing)
 
       AudioZero.begin(2* 44100); // Corresponds to the 44.1kHz output of audio sampling at 88.2kHz
